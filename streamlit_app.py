@@ -17,7 +17,7 @@ with st.form('my_form'):
     submitted = st.form_submit_button('Submit')
 
     if not openai_api_key.startswith('sk-'):
-        st.warning('Please enter your OpenAI API key!', icon='⚠️')
+        st.warning('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', icon='⚠️')
 
     if submitted and openai_api_key.startswith('sk-'):
         generate_response(text)
